@@ -13,13 +13,13 @@ int	main()
 {
 	int a;
 	int b;
-	int c;
-	int d;
+	int div;
+	int mod;
 
-	c = 20;
-	d = 3;
-	ft_div_mod(a, b, div, mod);
-	printf("%d", c);
-	printf("%d", d);
+	a = 20;
+	b = 3;
+	ft_div_mod(a, b, &div, &mod);
+	printf("%d", div);
+	printf("%d", mod);
 }
 
